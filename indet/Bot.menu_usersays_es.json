@@ -1,0 +1,56 @@
+[
+  {
+    "id": "e631258c-05f8-4eda-8513-3627c7c6610c",
+    "data": [
+      {
+        "text": "registrar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b8b32a19-8c53-42e3-b7d6-0d977d6e7495",
+    "data": [
+      {
+        "text": "registro",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ca66a6eb-5915-440a-9a2a-3630b15e91f3",
+    "data": [
+      {
+        "text": "opciones",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2c770651-9122-4954-9126-433efb4d461c",
+    "data": [
+      {
+        "text": "menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

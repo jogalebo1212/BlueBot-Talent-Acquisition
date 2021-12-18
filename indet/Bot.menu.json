@@ -1,0 +1,70 @@
+{
+  "id": "0eebd4ec-a4c9-4d93-962b-0dfb93c988a3",
+  "name": "Bot.menu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "745459e9-8feb-4c54-98e9-1d3bab522900",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://www.questionpro.com/qp_userimages/sub-3/3175908/portada-modelos-de-encuestas.png",
+          "subtitle": "¿Deseas registrar tu perfil?",
+          "title": "Registro de perfiles",
+          "buttons": [
+            {
+              "postback": "Empezar Tramite",
+              "text": "Sí"
+            },
+            {
+              "postback": "Fin de tramite",
+              "text": "No"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

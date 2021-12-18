@@ -1,0 +1,21 @@
+[
+  {
+    "id": "cb1a4461-9494-4558-acf4-ea666d2c249e",
+    "data": [
+      {
+        "text": "Fin de",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      },
+      {
+        "text": " tramite",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

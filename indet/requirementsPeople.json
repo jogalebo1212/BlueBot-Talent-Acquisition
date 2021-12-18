@@ -1,0 +1,356 @@
+{
+  "id": "8916584b-6b18-419e-a016-c00b3dc35457",
+  "name": "requirementsPeople",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3e27854a-283b-4db4-912d-40a0c7c32f99",
+          "name": "Name",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$Name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Por favor, ingresa tu nombre"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5b46f682-e83a-472a-a789-97e2eaeb1d13",
+          "name": "python",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$python",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Haz usado la herramienta python?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b2e0bd51-962c-43f6-94cb-74b2d50556fa",
+          "name": "sql",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$sql",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Haz usado la herramienta sql?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3abced26-e80e-429d-915f-a6e11dcb9cf2",
+          "name": "ml",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$ml",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Haz usado la herramientas de machine learnig?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "34f7d063-2ee5-4127-af7d-aa1c0b16971b",
+          "name": "r",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$r",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Haz usado la herramienta r?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a30067c9-b2e4-4cb6-a768-c1667f331419",
+          "name": "hadoop",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$hadoop",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Haz usado la herramienta hadoop?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "762346a1-c3b2-4dc0-847c-6825571b895f",
+          "name": "tableau",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$tableau",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Haz usado la herramienta tableau?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "aee2f2dc-3107-47fb-b47d-cd6f6b634332",
+          "name": "sas",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$sas",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Haz usado la herramienta sas?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2e352c4d-a255-4082-8a9c-ff887dc2a050",
+          "name": "spark",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$spark",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Haz usado la herramienta spark?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b0891f00-7e34-474a-a6ef-9f516b6726c3",
+          "name": "java",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$java",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Haz usado la herramienta java?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d1b5407f-b9b5-44b4-8270-dc3440658425",
+          "name": "Others",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$Others",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "En dado caso que tengas conocimiento en otras herramientas, solo responde sí ó no"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "460553eb-bc53-48f7-bdf8-82f1d025faaf",
+          "name": "CBS",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$CBS",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Ha trabajado en una empresa de consultoría y servicios a negocios?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0c36d1f6-1c18-4d8d-a72a-82fba1ae86db",
+          "name": "IS",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$IS",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Ha trabajado en una empresa de internet y software?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "48acc14e-d6a3-468c-94de-25dfe9e619f6",
+          "name": "BFS",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$BFS",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Ha trabajado en una empresa de banca y servicios financieros?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "94628fbd-bb57-41b0-bfae-397079e69951",
+          "name": "HC",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$HC",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Ha trabajado en una empresa de servicios de salud?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "186d198d-98c4-45d2-8635-27568253b4a4",
+          "name": "Insurance",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$Insurance",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Ha trabajado en una empresa de seguros?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c65448b9-a47b-429d-95fb-7e4435ec2add",
+          "name": "Other_industries",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$Other_industries",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Si ha trabajado en cualquier otra industria solo escriba, sí o no"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
